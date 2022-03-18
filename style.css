@@ -124,6 +124,11 @@ img {
     width: 100%;
   }
 
+  #lezioni .row>.left img {
+    height: auto;
+    width: 35%;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
