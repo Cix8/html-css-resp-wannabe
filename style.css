@@ -72,6 +72,42 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 768px) {
+  
+  img {
+    width: 60%;
+    height: auto;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  #lezioni .row>.left img {
+    height: 20vw;
+    width: auto;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    width: 50%;
+  }
+
+  #steps .row>.right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #steps .row>.right img {
+    margin-top: 2em;
+  }
+
+  #steps .row>.right img,
+  #why img {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 420px) {
 
   img {
@@ -92,6 +128,11 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
+  }
+
+  #steps .row>.right img {
+    width: 40%;
+    margin: 0;
   }
   
   #why .row>.first,
