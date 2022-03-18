@@ -75,24 +75,33 @@ img {
 @media screen and (max-width: 420px) {
 
   img {
-    width: 100%;
+    width: 40%;
     height: auto;
   }
 
   .row {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
   }
   
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+  }
+
+  #why img {
+    width: 20%;
   }
 
   .container:nth-child(odd) {
